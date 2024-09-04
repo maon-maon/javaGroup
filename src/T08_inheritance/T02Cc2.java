@@ -1,7 +1,7 @@
 package T08_inheritance;
 
 //출력전담 클래스
-public class T02Cc2 extends T2Bb2 {
+public class T02Cc2 extends T02Bb2 {
 	
 	// 매개변수(flag)에 1이 오면 사각형처리, 2가오면 원을 처리해서 출력한다.
 	void prn(int flag, String ans, int res, double res2) {

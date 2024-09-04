@@ -1,6 +1,6 @@
 package T08_inheritance;
 //원의 면적 /둘레
-public class T2Bb2 extends T02Aa2{
+public class T02Bb2 extends T02Aa2{
 	
 	// 원의 면적(r * r * 3.14)
 	double areaCircle(int r) {

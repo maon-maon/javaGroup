@@ -1,6 +1,6 @@
 package t50_Exercise;
 
-public class T3 {
+public class T3_git연습 {
 	public static void main(String[] args) {
 		int tot=0;
 		System.out.println("!!!1~10까지의 합을 출력!!!");

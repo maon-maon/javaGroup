@@ -23,9 +23,10 @@ public class T02Run {
 			w= sc.nextInt();
 			System.out.println("세로를 입력하세요");
 			h= sc.nextInt();
-//			int resSqu =cc.prn(flag);
+			cc.areaRec(w, h);
+			cc.lenRec(w, h);
 			
-			
+			cc.prn(flag);
 		
 		
 		sc.close();
