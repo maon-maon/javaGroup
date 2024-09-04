@@ -4,8 +4,7 @@ public class T05_C extends T05_P {
 
 	@Override
 	void areaC(int r) {
-		// TODO Auto-generated method stub
-		super.areaC(r);
+		
 	}
 	
 	
