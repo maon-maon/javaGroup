@@ -4,8 +4,8 @@ public class WoojuBunsik_ extends Bonsa_{
 
 	
 
-	public WoojuBunsik_(int kimchi, int budea, int bibim, int sundea, int bab) {
-		super(kimchi, budea, bibim, sundea, bab);
+	public WoojuBunsik_() {
+		super("김치찌개", "부대찌개", "비빔밥", "순대국밥", "공기밥");
 		// TODO Auto-generated constructor stub
 	}
 

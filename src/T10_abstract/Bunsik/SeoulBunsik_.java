@@ -3,14 +3,15 @@ package T10_abstract.Bunsik;
 public class SeoulBunsik_ extends Bonsa_{
 
 	
-	public SeoulBunsik_(int kimchi, int budea, int bibim, int sundea, int bab) {
-		super(kimchi, budea, bibim, sundea, bab);
-		// TODO Auto-generated constructor stub
+	public SeoulBunsik_() {
+		super("김치찌개", "부대찌개", "비빔밥", "순대국밥", "공기밥");
+		// 생성자 통해서 접근하기 때문에 메뉴 수정 불가능.
 	}
 
 	@Override
 	public void kimchi() {
-		System.out.println(getKimchi()+" : 5,000원");
+		System.out.println(" : 5,000원");
+//		System.out.println(getKimchi()+" : 5,000원");
 	}
 
 	@Override
