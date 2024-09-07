@@ -1,7 +1,7 @@
 package T11_interface.t01;
 //인터페이스의 모든 메소드=추상메소드// 인터페이스에서의 일반적 쓰는 방법
 public interface Test1 {
-//	 int max = 100000;//final static더는 못바꿈=상수=대문자작성
+//	 int max = 100000;//final static 더는 못바꿈=상수=대문자작성
 //	 final static int MAX = 100000;//상수=대문자작성
 //	 public final static int MAX = 100000;//접근제한자는 기본설정 공공개방형=퍼블릭
 	 int MAX = 100000;//final static 생략가능// !!대부분 양식으로 씀

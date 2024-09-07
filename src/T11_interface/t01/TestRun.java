@@ -6,7 +6,7 @@ public class TestRun {
 		
 		Seoul seoul = new Seoul();//구현객체 생성해서 사용함
 		seoul.date();
-		seoul.date2();//생성한 변수명으로 호출
+		seoul.date1(0);//생성한 변수명으로 호출
 		System.out.println();
 		
 		Test1.date3();//인터페이스는 클래스명을 씀
