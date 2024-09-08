@@ -1,4 +1,4 @@
-package T12_Nested.t03;
+package T12_Nested.t03_local;
 
 //중첩클래스 : 로컬클래스(메소드 안에 생성되는 클래스)
 public class Test1 {

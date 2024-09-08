@@ -1,4 +1,4 @@
-package T12_Nested.t02;
+package T12_Nested.t02_static;
 
 public class Test1Run {
 	public static void main(String[] args) {

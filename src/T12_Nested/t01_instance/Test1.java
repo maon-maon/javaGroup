@@ -1,4 +1,4 @@
-package T12_Nested.t01;
+package T12_Nested.t01_instance;
 
 //중첩클래스: 인스턴스 멤버 클래스
 public class Test1 {

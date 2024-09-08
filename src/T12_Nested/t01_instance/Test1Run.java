@@ -1,5 +1,5 @@
-package T12_Nested.t01;
-
+package T12_Nested.t01_instance;
+//
 public class Test1Run {
 	public static void main(String[] args) {
 		 Test1 t1 = new Test1();
@@ -11,7 +11,7 @@ public class Test1Run {
 		 System.out.println();
 		 
 		 //중첩클래스 내부 클래스 호출
-		 T12_Nested.t01.Test1.Aa t1a= t1.new Aa();
+		 T12_Nested.t01_instance.Test1.Aa t1a= t1.new Aa();
 		 System.out.println("중첩클래스"+t1a.suA);
 		 t1a.modTest1A();
 	}

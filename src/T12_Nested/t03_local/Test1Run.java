@@ -1,4 +1,4 @@
-package T12_Nested.t03;
+package T12_Nested.t03_local;
 
 public class Test1Run {
 	public static void main(String[] args) {

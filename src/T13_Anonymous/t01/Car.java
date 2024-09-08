@@ -8,7 +8,7 @@ public class Car extends Tire {
 	}
 
 	public void mod1() {
-		System.out.println("Car(자식객체)클래스의 mod1메소드입니다.");
+		System.out.println("Car(자식객체)클래스의 mod1메소드입니다.");//Tire의 자식객체Car
 	} 
 	
 	//추상클래스를 구현한 익명클래스

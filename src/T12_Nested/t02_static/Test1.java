@@ -1,4 +1,4 @@
-package T12_Nested.t02;
+package T12_Nested.t02_static;
 
 //중첩클래스: 정적 멤버 클래스
 public class Test1 {
