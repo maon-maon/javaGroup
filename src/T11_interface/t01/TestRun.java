@@ -2,7 +2,7 @@ package T11_interface.t01;
 
 public class TestRun {
 	public static void main(String[] args) {
-//	new Test1();//클래스 생성 불가능
+//	new Test1_break();//클래스 생성 불가능
 		
 		Seoul seoul = new Seoul();//구현객체 생성해서 사용함
 		seoul.date();

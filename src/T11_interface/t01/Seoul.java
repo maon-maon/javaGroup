@@ -1,5 +1,5 @@
 package T11_interface.t01;
-//Test1(정의객체)의 구현(실체)객체 : implements 걸고있음
+//Test1_break(정의객체)의 구현(실체)객체 : implements 걸고있음
 public class Seoul implements Test1 {
 
 	@Override

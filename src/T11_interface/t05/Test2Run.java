@@ -2,7 +2,7 @@ package T11_interface.t05;
 //익명클래스인 구현클래스
 public class Test2Run {
 	public static void main(String[] args) {
-//		new Test2();//인터페이스를 생성 못함 다른 방법 사용.
+//		new Test2VO();//인터페이스를 생성 못함 다른 방법 사용.
 		
 		//익명객체1
 		Test2 t22 = new Test2() {//인터페이스에서 선언한 추상메소드 abc를 여기서 오버라이드해서 만들어서 사용함
