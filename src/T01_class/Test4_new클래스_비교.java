@@ -1,4 +1,4 @@
-package t01_class;
+package T01_class;
 
 public class Test4_new클래스_비교 {
 	public static void main(String[] args) {

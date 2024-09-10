@@ -1,4 +1,4 @@
-package t01_class;
+package T01_class;
 
 public class Test1_클래스_생성비교 {
 
