@@ -50,7 +50,7 @@ public class Test2VO_공부용 {
 	//겟/셋은 무조건 만들어야 함
 //	@Override
 //		public String toString() {
-//			return "Test [name= "+name+";, age = "+age+",gender= "+gender+",job = "+job+",address =,"+address+"]";
+//			return "T02TreeMap [name= "+name+";, age = "+age+",gender= "+gender+",job = "+job+",address =,"+address+"]";
 //		}
 	
 }

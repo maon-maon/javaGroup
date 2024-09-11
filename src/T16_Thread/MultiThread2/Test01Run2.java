@@ -13,7 +13,7 @@ public class Test01Run2 {
 		Thread th1 = new Thread(th,"mbc");
 		Thread th2 = new Thread(th,"kbs");
 		Thread th3 = new Thread(th,"sbs");
-		
+		//생성한것 안에 이름을 넣어줌
 		
 		th1.start();
 		th2.start();
