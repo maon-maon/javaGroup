@@ -41,15 +41,16 @@ public class TestDAO {
 		 try {
 			// DB검색
 			Statement stmt = conn.createStatement();
-			sql ="select * from test";
+			sql ="select * from test";//Test테이블을 호출함
 			ResultSet rs = stmt.executeQuery(sql);//executeQuery검색에서 사용
+			//가져온 자료를 rs에 담음
 			
 			// 출력
 			System.out.println("========================================");
 			System.out.println("번호\t성명\t나이\t성별\t주소");
 			System.out.println("========================================");
-			while(rs.next()) {
-				System.out.print(rs.getInt("idx")+"\t");
+			while(rs.next()) {//시작점은 BOF(빈줄)의 레코드 포인트를 한 줄 내려서 진짜 자료가 있는 레코드에서부터 자료 검색
+				System.out.print(rs.getInt("idx")+"\t");//정수인int타입의 필드명idx를 호출함
 				System.out.print(rs.getString("name")+"\t");
 				System.out.print(rs.getInt("age")+"\t");
 				System.out.print(rs.getString("gender")+"\t");
