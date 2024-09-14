@@ -7,6 +7,8 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
+
+//데이터베이스 연결 객체
 //DB에 관한 내용만 전담처리
 //작업이 돌아가야 하는 부분의 구현
 public class HoewonDAO {
@@ -122,13 +124,13 @@ public class HoewonDAO {
 		return vos;
 	}
 
-	//개별자료 검색
+	//3.개별자료 검색
 	public HoewonVO getSearch(String name) {
 		HoewonVO vo = new HoewonVO();
 		try {
 			sql= "select * from hoewon where name = ?";
 			pstmt = conn.prepareStatement(sql);//sql을 conndml pstmt를 활용하여 변수에 담음
-			pstmt.setString(1, name);//변수의 데이터에 타입을 부여
+			pstmt.setString(1, name);//변수의 데이터에 타입을 부여 //물음표 자리에 ㄱ밧설정
 			rs=pstmt.executeQuery();
 			
 			if(rs.next()) {
@@ -147,7 +149,7 @@ public class HoewonDAO {
 		return vo;//vo가 없으면 null
 	}
 	
-	//DB에서 삭제처리
+	//4.DB에서 삭제처리
 	public int setDelete(String name) {
 		int res = 0;
 		try {
@@ -188,3 +190,16 @@ public class HoewonDAO {
 	}
 }
 	
+
+
+
+
+
+
+
+
+
+
+
+
+

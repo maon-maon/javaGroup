@@ -11,6 +11,7 @@ public class HoewonService {
 	
 	//실행하는 메뉴의 처리를 도와줌
 	//비지니스로직
+//1.회원 정보 등록	
 	public void setInput(HoewonDAO dao) {
 		//데이터베이스DAO를 사용
 		//DB에 저장할 정보를 담아주는 역할 = 입력
@@ -52,7 +53,7 @@ public class HoewonService {
 //		dao.connClose();//사용한 DB를 닫아줘야 함 //3.1이거 닫음 (로그찍힘=열고닫음 또열고닫음 반복)
 	}
 	
-	//전체 검색하여 결과를 출력
+	//2.전체 검색하여 결과를 출력
 	public void getListt(HoewonDAO dao) {//dao에서 자료 받아서 출력하면 끝//DB꺼내기- VO담기 -Vos에 모으기=어레이리스트로 모으기(한줄=제너릭)
 		ArrayList<HoewonVO> vos = dao.getList(); //vos의 타입이 ArrayList<HoewonVO>
 		vo = new HoewonVO();
@@ -74,7 +75,7 @@ public class HoewonService {
 		System.out.println("===========================================================");
 	}
 	
-	//개별검색()하여 결과를 출력
+	//3.개별검색()하여 결과를 출력
 	public int getSearch(HoewonDAO dao, String name) {
 		HoewonVO	vo = dao.getSearch(name);//dao에서 이름으로 검색
 		
