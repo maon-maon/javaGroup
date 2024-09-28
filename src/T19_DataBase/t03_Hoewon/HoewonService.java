@@ -123,6 +123,7 @@ public class HoewonService {
 					if (vo.getName() == null) break;
 					else	System.out.println("같은 이름이 존재합니다. 다른 이름으로 수정하세요. ");			
 				}
+				else break;
 			}
 			idx = dao.setUpdate(idx, choice, content);
 			if(idx !=0 ) System.out.println(" 회원 자료 수정 완료 ");
